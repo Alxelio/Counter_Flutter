@@ -5,7 +5,7 @@ Due to pandemic, there was a need to build an app just to count people in a room
 First of all, We need to install Flutter in our computer. See the documentation at https://flutter.dev/docs/get-started/install/linux and then,
 We gonna use Snap Store after the Snapd had been installed.
 
-So, We can use this command line below in the terminal as root administration:
+So, We can use this command line below in the terminal as root administrator:
 sudo snap install flutter --classic
 
 Then, We have to put this command line below in the terminal too:
@@ -50,8 +50,17 @@ Finally, execute the command line (only):
 flutter doctor
 
 With the Android-Studio Software opened, we have to install the plugins.
-Press the button Plugins on the left, type flutter on search and then click on Install button => Accept => Install Required Plugins => Install => Restart IDE
+Press the button Plugins on the left, type flutter on search and then click on Install button => Accept => Install Required Plugins including Dart => Install => Restart IDE
+
+On Android-Studio Software
+open this software on research tab in the computer => Select this option Projects on the left tab => New Flutter Project => Select Flutter on the left tab => Next button => Project Name (counter_flutter2) => Project Location (~/Área de Trabalho/Counter_Flutter/counter_flutter2) => Description (Whatever) => Project Type Application => Organization (Whatever) => Android Language Kotlin => IOS Language Swift => Platforms: Android - IOS - Web => Finish button => Create button
 
 On VSCODE
 We can install some plugins like Commands Palette:
 with VSCODE opened, on the View tab, Command Palette (Ctrl + Shift + P) => Install on the search tab => Extensions: Install Extensions => on the left we should research for Flutter => click on Flutter => click on Installing => Command Palette (Ctrl + Shift + P) => type doctor => select this option => probably something went wrong with environment variables => or everything went right
+
+save location: /home/alunime/AndroidStudioProjects/Counter_Flutter
+flutter SDK path: /home/alunime/snap/flutter/common/flutter
+git add README.md
+git commit -s -m "Add README base file"
+git push
