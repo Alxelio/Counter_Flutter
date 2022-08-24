@@ -59,6 +59,20 @@ On VSCODE
 We can install some plugins like Commands Palette:
 with VSCODE opened, on the View tab, Command Palette (Ctrl + Shift + P) => Install on the search tab => Extensions: Install Extensions => on the left we should research for Flutter => click on Flutter => click on Installing => Command Palette (Ctrl + Shift + P) => type doctor => select this option => probably something went wrong with environment variables => or everything went right
 
+---
+
+---
+
+To get an Emulator
+press the button Device Manager on right top of the screen. Select the option Create Virtual Device, and then choose Phone on left top tab.
+After that, choose one that contains Play Store like Nexus 5x, so press the button Next. About the Android Version, it is a good idea to choose the latest one. So We can let the Portrait option and then press the Finish button. Press twice on it to execute it right away.
+Inside the Menu => Settings => Emulator Always on Top
+
+In the physical device (smartphone) We can test our application doing the next steps:
+researching for USB Depuration / Debugging and then activate it. We can get through Developer Options => USB Debugging.
+
+For Dart Language, We can practice or develop our codes by https://dartpad.dev/?
+
 save location: /home/alunime/AndroidStudioProjects/Counter_Flutter
 flutter SDK path: /home/alunime/snap/flutter/common/flutter
 git add README.md
